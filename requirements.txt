@@ -1,0 +1,10 @@
+
+fastapi
+uvicorn
+bs4
+asyncio
+httpx
+IPython
+
+openai
+
