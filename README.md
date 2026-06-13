@@ -1,4 +1,4 @@
-## Brochure Creater
+## Brochure Creator
 
 
 #### Just enter your company name and website URL to get a proffessional Brochure
