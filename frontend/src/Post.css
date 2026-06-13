@@ -1,0 +1,63 @@
+.web_url input[type="text"] { /* انتخاب دقیق‌تر input */
+    width: 400px; /* عرض بیشتر برای باکس URL */
+    padding: 10px; /* padding داخلی بیشتر برای بزرگتر شدن */
+    font-size: 16px; /* فونت بزرگتر */
+    border: 1px solid #ccc;
+    border-radius: 5px; /* گوشه‌های گرد */
+    box-sizing: border-box; /* برای اینکه padding و border در عرض کلی لحاظ شوند */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.create_button {
+    padding: 10px 30px; /* padding بیشتر برای دکمه */
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+
+.brochure-box {
+  width: 100%;
+  max-width: 600px;
+  margin: 50px;
+  margin-top: 24px;
+  padding: 16px;
+  /* border: 1px solid #ddd; */
+  border-radius: 12px;
+  text-align: left;      /* keep answer left-aligned */
+  direction: ltr;        /* left to right */
+  /* background: #f9f9f9; */
+}
+
+.brochure-box h3 {
+  margin-top: 0;
+  color: #333;
+  font-size: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+}
+
+
+.brochure-content {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6; /* Improved line spacing */
+  word-wrap: break-word; /* Crucial for breaking long words/lines */
+  overflow-wrap: break-word; /* Standard property for breaking words */
+  white-space: pre-wrap; /* This will preserve your newlines from the API, AND wrap long lines */
+}
+
+
+.error {
+  color: #dc2626; /* Red color for errors */
+  margin-top: 16px;
+  text-align: left;
+  direction: ltr;
+  font-size: 14px;
+}
